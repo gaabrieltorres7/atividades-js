@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Praticando o DOM</title>
+</head>
+
+<body>
+  <h2>Imóveis</h2>
+
+  <form>
+    <label>Tipo:</label>
+    <select name="tipo">
+      <option value="casa">Casa</option>
+      <option value="apto">Apartamento</option>
+    </select>
+
+    <br>
+
+    <label>Área:</label>
+    <input type="text" name="area" placeholder="digite a área aqui...">
+
+    <br>
+
+    <label>Está alugado?</label>
+    <input type="checkbox" value="sim" name="sn">SIM
+    <input type="checkbox" value="nao" name="sn">NÃO
+
+  </form>
+
+  <button onclick="cadastrar()">CADASTRAR</button>
+
+  <ul id="cadastrados">
+
+  </ul>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
